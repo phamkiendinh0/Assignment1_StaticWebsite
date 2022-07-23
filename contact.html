@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <span> Book Store </span>
+        <img src="/image/logo.jpg" alt="logo">
+        <div id="topnav">
+            <nav>
+                <a href="index.html" target="_blank">Home</a>
+                <a href="category.html" target="_blank">Horror</a>
+                <a href="category.html" target="_blank">Love</a>
+            </nav>
+        </div> 
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <form action="form.php" method="post" enctype="multipart/form-data" >
+            <fieldset id="contact_purpose">
+                <legend>Contact Purpose</legend>
+                <select name="purpose-list[]" id="purpose">
+                    <option value="" style="font-weight: bold;background-color: gray;">Why are you trying to contact us?</option>
+                    <option id="sell_book" value="I want to sell books">I want to sell books</option>
+                    <option id="buy_book" value="I want to buy books">I want to buy books</option>
+                </select>
+            </fieldset>
+
+            <fieldset id="contact_information">
+            <legend>Contact Information</legend>
+                <label for="name" class="contact">Name: </label><input class="contact_input" id="name" type="text" name="name" placeholder="Enter your name..."> <br> <br>
+                <label for="email" class="contact">Email: </label><input class="contact_input" id="email" type="email" name="email" placeholder="Enter your email..."> <br> <br>
+                <label for="phone" class="contact">Phone: </label><input class="contact_input" id="phone" type="tel" name="phone" placeholder="Enter your phone...">
+            </fieldset>
+
+
+            <fieldset id="contact_method">
+                <legend>How Can We Contact You?</legend>
+                    <div>
+                        <input id="by_email" type="checkbox" name="contact_method[]" value="by_email" /> <label for="by_email">By Email </label>
+                        <input id="by_phone" type="checkbox" name="contact_method[]" value="by_phone" /> <label for="by_phone">By Phone </label>
+                    </div>
+            </fieldset>
+
+            <fieldset id="ads">
+                <legend>Do you want to receive our weekly newsletter?</legend>
+                <div>
+                    <input type="radio" id="ads_yes" name="ad" value="yes" checked> <label for="yes">Yes </label>
+                    <input type="radio" id="ads_no" name="ad" value="no" > <label for="no">No </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Note For Us</legend>
+                <textarea name="note" id="note" cols="50" rows="5" placeholder="Your Feedback..."></textarea>
+            </fieldset>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <span>Book Store</span>
+        <div id="bottomnav">
+            <nav>
+                <a href="#" target="_blank">About Us</a>
+                <a href="#" target="_blank">Privacy Policy</a>
+                <a href="#" target="_blank">Terms</a>
+                <a href="#" target="_blank">Copyright</a>
+                <a href="contact.html" target="_blank">Contact Us</a>
+            </nav>
+        </div> 
+    </footer>
+</body>
+</html>

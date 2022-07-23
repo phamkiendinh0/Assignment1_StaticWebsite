@@ -1,0 +1,62 @@
+/* Header */
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 10%;
+    background-image: linear-gradient(to right, white, pink, rgb(216, 18, 199), red);
+}
+
+header span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header img {
+    position: absolute;
+    left: 20px;
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#nav a {
+    display: block-inline;
+}
+
+header div {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    float: right;
+    padding: 10px 5px;
+    background-color: black;
+}
+
+
+nav a {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+    background-color: white;
+}
+
+a:active {
+    color: red;
+}
+
+@media only screen and (max-width:960px) {
+    #topnav a {
+        display: block;
+        padding: 5px 10px;
+    }
+}

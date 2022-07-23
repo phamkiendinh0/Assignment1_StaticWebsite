@@ -1,0 +1,173 @@
+body {
+    background-color: brown;
+}
+
+main {
+    position: relative;
+    margin-top: 20px;
+}
+
+
+footer {
+    margin-top: 20px;
+    position: relative;
+}
+
+main div {
+    margin-left: 5%;
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+    height: 30%;
+    background-image: linear-gradient(to right, pink, white, pink);
+    border-style: outset;
+}
+
+main div a {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main div a:hover {
+    color: red;
+    background-color: black;
+}
+
+#box1 {
+    margin: auto;
+    height: 70%;
+    width: 90%;
+    display: relative;
+}
+
+#box1 a {
+    position: relative;
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+    margin-left: auto;
+}
+
+#box1 a:hover {
+    background-color: pink;
+}
+
+#box1 a:first-child {
+    float: left;
+}
+
+#box1 a:last-child {
+    float: right;
+}
+
+#box2 {
+    margin: auto;
+    height: 70%;
+    width: 90%;
+    display: relative;
+}
+
+#box2 a {
+    position: relative;
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+    margin-left: auto;
+}
+
+#box2 a:first-child {
+    float: left;
+}
+
+#box2 a:last-child {
+    float: right;
+}
+
+
+#box2 a:hover {
+    background-color: pink;
+}
+
+#box3 {
+    margin: auto;
+    height: 70%;
+    width: 90%;
+    display: relative;
+}
+
+#box3 a {
+    position: relative;
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+    margin-left: auto;
+}
+
+#box3 a:first-child {
+    float: left;
+}
+
+#box3 a:last-child {
+    float: right;
+}
+
+
+#box3 a:hover {
+    background-color: pink;
+}
+
+#thriller1 {
+    background-image: url('/image/thriller1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#thriller2 {
+    background-image: url('/image/thriller2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#thriller3 {
+    background-image: url('/image/thriller3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#zombie1 {
+    background-image: url('/image/zombie1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#zombie2 {
+    background-image: url('/image/zombie2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#zombie3 {
+    background-image: url('/image/zombie3.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+#supernatural1 {
+    background-image: url('/image/supernatural1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#supernatural2 {
+    background-image: url('/image/supernatural2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#supernatural3 {
+    background-image: url('/image/supernatural3.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
